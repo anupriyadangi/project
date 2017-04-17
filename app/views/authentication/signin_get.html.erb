@@ -1,0 +1,6 @@
+<%= form_tag '/signin' do %>
+EMAIL:<%= text_field_tag :email %></br>
+PASSWORD:<%= password_field_tag :password %></br>
+<%= submit_tag "SIGN IN!!!" %>
+<%= link_to 'NEW USER?' , '/signup' %>
+<% end %>
